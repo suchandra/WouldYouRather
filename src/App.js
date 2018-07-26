@@ -12,8 +12,7 @@ import Leaderboard from './components/Leaderboard';
 import AddQuestion from './components/AddQuestion';
 import QuestionPage from './components/QuestionPage';
 import PrivateRoute from './components/PrivateRoute';
-import FourOFour from './components/FourOFour';
-import AddButton from './components/ui-library/AddButton';
+import AddButton from './components/view/AddButton';
 
 class App extends Component {
   static propTypes = {
@@ -63,9 +62,6 @@ class App extends Component {
               path="/questions/:id"
               exact
               component={QuestionPage}
-            />
-            <Route
-              component={FourOFour}
             />
           </Switch>
         </div>

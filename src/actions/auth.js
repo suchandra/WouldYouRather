@@ -1,5 +1,4 @@
 import { showLoading, hideLoading } from 'react-redux-loading-bar';
-// relative imports
 import { getAuthUsers } from '../utils/api';
 import { LOG_IN, LOG_OUT } from './actionTypes';
 

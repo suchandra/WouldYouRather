@@ -1,6 +1,3 @@
-# Would You Rather?
-React & Redux Project — Udacity React Developer Nanodegree
-
 ## Setting Things Up
 To get started right away:
 * Clone the repo

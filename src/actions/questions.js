@@ -1,5 +1,4 @@
 import { showLoading, hideLoading } from 'react-redux-loading-bar';
-// relative imports
 import { saveQuestion, saveQuestionAnswer } from '../utils/api';
 import { GET_QUESTIONS, ADD_QUESTION, REGISTER_VOTE } from './actionTypes';
 

@@ -60,11 +60,11 @@ let questions = {
     timestamp: 1466264761544,
     optionOne: {
       votes: [],
-      text: 'Turn the world into a thin, white ⚪️ room like mine',
+      text: 'Turn the world into a thin, white️ room like mine',
     },
     optionTwo: {
       votes: ['albert', 'jony'],
-      text: 'Develop a procedure ‍⚗️ to turn steel into alumninum',
+      text: 'Develop a procedure ️ to turn steel into alumninum',
     },
   },
   '7fj3y6ziyoresozdd23r6u': {
@@ -73,11 +73,11 @@ let questions = {
     timestamp: 1467265871642,
     optionOne: {
       votes: ['albert'],
-      text: 'Graduate from Stanford 👩‍🎓 and go work at a bank',
+      text: 'Graduate from Stanford and go work at a bank',
     },
     optionTwo: {
       votes: ['jony'],
-      text: 'Graduate from MIT 👩‍🔬 and go work at CERN',
+      text: 'Graduate from MIT and go work at CERN',
     },
   },
   '8xf0y6ziyjabvozdd253nd': {
@@ -86,11 +86,11 @@ let questions = {
     timestamp: 1467166872634,
     optionOne: {
       votes: ['niko'],
-      text: 'Eat only 🍏 fruit and 🥦 vegetables for the rest of your life',
+      text: 'Eat only fruit and vegetables for the rest of your life',
     },
     optionTwo: {
       votes: ['marccollado'],
-      text: 'Eat only 🥩 meat and 🐠 fish for the rest of your life',
+      text: 'Eat only meat and fish for the rest of your life',
     },
   },
   '6ni6ok3ym7mf1p33lnez': {
@@ -99,11 +99,11 @@ let questions = {
     timestamp: 1468479767190,
     optionOne: {
       votes: ['niko'],
-      text: 'Time travel to the 🦖 past knowing everything you now know',
+      text: 'Time travel to the past knowing everything you now know',
     },
     optionTwo: {
       votes: ['albert', 'marccollado'],
-      text: 'Time travel to the 🔮 future without knowing anything of what you now know',
+      text: 'Time travel to the future without knowing anything of what you now know',
     },
   },
   '7gd6fk3em9h2dpe490e1': {
@@ -112,11 +112,11 @@ let questions = {
     timestamp: 1476479545194,
     optionOne: {
       votes: [],
-      text: 'Develop the habit of waking up ⏰ at 5:00am every day',
+      text: 'Develop the habit of waking up at 5:00am every day',
     },
     optionTwo: {
       votes: ['jony'],
-      text: 'Be able to work, with plenty of energy 🔋 during all night',
+      text: 'Be able to work, with plenty of energy during all night',
     },
   },
   am8ehyc8byjqgar0jgpub9: {
@@ -125,11 +125,11 @@ let questions = {
     timestamp: 1488579767190,
     optionOne: {
       votes: ['marccollado'],
-      text: 'Go through a ten day meditation retreat 🧘‍',
+      text: 'Go through a ten day meditation retreat‍',
     },
     optionTwo: {
       votes: ['niko'],
-      text: 'Finish a marathon 🏃‍',
+      text: 'Finish a marathon‍',
     },
   },
   loxhs1bqm25b708cmbf3g: {
@@ -138,11 +138,11 @@ let questions = {
     timestamp: 1482579767190,
     optionOne: {
       votes: [],
-      text: 'Get a job as top notch executive 💸 at Wall Street',
+      text: 'Get a job as top notch executive at Wall Street',
     },
     optionTwo: {
       votes: ['niko', 'marccollado'],
-      text: 'Get a job as a programmer 👩‍💻 at Silicon Valley',
+      text: 'Get a job as a programmer at Silicon Valley',
     },
   },
   vthrdm985a262al8qx3do: {
@@ -151,11 +151,11 @@ let questions = {
     timestamp: 1489579767190,
     optionOne: {
       votes: ['jony'],
-      text: 'Be the first to go to Mars aboard of a 🚀 Falcon 9 rocket',
+      text: 'Be the first to go to Mars aboard of a Falcon 9 rocket',
     },
     optionTwo: {
       votes: ['albert'],
-      text: 'Drive across the Route 66 with the new 🚘 Tesla Roadster',
+      text: 'Drive across the Route 66 with the new Tesla Roadster',
     },
   },
   xj352vofupe1dqz9emx13r: {
@@ -164,11 +164,11 @@ let questions = {
     timestamp: 1493579767190,
     optionOne: {
       votes: ['albert'],
-      text: 'Work at Google, as the PM at the Google Reader 📖 team',
+      text: 'Work at Google, as the PM at the Google Reader team',
     },
     optionTwo: {
       votes: ['jony'],
-      text: 'Work at Apple, as an engineer at the iPod Touch 📱 team',
+      text: 'Work at Apple, as an engineer at the iPod Touch team',
     },
   },
 };

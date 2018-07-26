@@ -6,7 +6,6 @@ import { PersistGate } from 'redux-persist/integration/react';
 import storage from 'redux-persist/lib/storage';
 import { Provider } from 'react-redux';
 
-import './styles/index.css';
 import App from './App';
 import reducer from './reducers';
 import middleware from './middlewares';
