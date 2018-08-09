@@ -52,12 +52,15 @@ class Question extends Component {
     return (
       <div>
         <div style={{ width: '35%', margin: '40px auto 40px auto' }}>
+        <div>
           <div style={{ width: '40%' , float:'left' }}>{optionOne}</div>
           <div style={{width:'5%', float:'left', padding:'35px'}}>OR</div>
           <div style={{ width: '40%' , float:'left' }}>{optionTwo}</div>
+         </div>
+         <div style={{clear:'both'}}></div>
+         <div>{this.renderActions()}</div>
         </div>
-        <div style={{clear:'both'}}></div>
-        {this.renderActions()}
+
       </div>
     );
   }

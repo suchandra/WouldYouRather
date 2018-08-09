@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import LoadingBar from 'react-redux-loading-bar';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
 // relative imports
 import { handleInitialData } from './actions/shared';
@@ -12,7 +12,6 @@ import Leaderboard from './components/Leaderboard';
 import AddQuestion from './components/AddQuestion';
 import QuestionPage from './components/QuestionPage';
 import PrivateRoute from './components/PrivateRoute';
-import AddButton from './components/view/AddButton';
 
 class App extends Component {
   static propTypes = {
@@ -31,7 +30,6 @@ class App extends Component {
         <div className="container">
           <LoadingBar />
           <Nav />
-          <Link to="/add"><AddButton /></Link>
           <Switch>
             <Route
               path="/"

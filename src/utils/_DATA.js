@@ -214,7 +214,6 @@ export function _saveQuestion(question) {
         ...questions,
         [formattedQuestion.id]: formattedQuestion,
       };
-
       res(formattedQuestion);
     }, 1000);
   });

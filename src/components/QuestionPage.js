@@ -14,11 +14,11 @@ const QuestionPage = ({
   const { path } = match;
 
   return (
-    <div >
+    <div style={{textAlign:'center',fontSize:'20px'}}>
         {path.includes('details') ?
         'Poll Details' :
         'Would You Rather'}
-
+<hr/>
       <div >
         {path.includes('details') ?
           <Question
@@ -62,6 +62,7 @@ function mapStateToProps({ questions, users, authUser }, { match }) {
     };
   }
   const userName = questions[match.params.id].author;
+  console.log(questions[match.params.id])
   const realName = authUser === userName ? 'you' : users[userName].name;
   const errorPage = false;
   return {

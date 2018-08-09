@@ -37,13 +37,13 @@ class Login extends Component {
     }
 
     return (
-      <div> Please select a user to login.Click the user to login.
-        <ul>
+      <div style={{margin: '0 auto',width: '40%',textAlign: 'center',fontSize: '20px'}}> Please Click a user to login.
+        <ul style={{padding:'0px'}}>
           {userDetails
             .map(user => (
               <li
                 key={user.userName}
-                style={{ listStyleType: 'none' ,lineHeight: '50px', color: 'blue', cursor: 'pointer'}}
+                style={{ listStyleType: 'none' ,lineHeight: '60px', color: 'blue', cursor: 'pointer', textDecoration:'underline'}}
                 onClick={e => this.login(e, user.userID)}
               >
                   {user.userName}
